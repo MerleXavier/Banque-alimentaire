@@ -1,0 +1,20 @@
+element.style {
+}
+.btn a:not(.nsb):hover, .btn a:not(.nsb):focus, button:not(.nsb):hover, button:not(.nsb):focus, input[type="submit"]:not(.nsb):hover, input[type="submit"]:not(.nsb):focus {
+    background-color: #786f78;
+}
+.block-help-us-block button {
+    padding: 20px 35px 15px;
+    font-size: 4.7rem;
+    text-transform: uppercase;
+}
+.block-help-us-block button, .block-help-us-block .items {
+    position: absolute;
+    right: 0;
+    border-radius: 0 0 10px 10px;
+    transform-origin: top right;
+}
+.btn a:not(.nsb), button:not(.nsb), input[type="submit"]:not(.nsb) {
+    background-color: #ff7800;
+    color: #fff;
+}
